@@ -14,12 +14,15 @@ body {
 
 .header .logo {
     margin-top: 20px;
-    padding: 45px;
+    padding: 40px;
+}
+.header .logo img {
+    width: 254px;
+    height: 55px;
 }
 
 .container {
     display: flex;
-    padding: 45px;
 }
  
 
@@ -40,7 +43,7 @@ body {
     color: #fff;
     font-size: 35px;
     width: 100%;
-    padding: 0 30px;
+    padding: 0 25px;
 }
 
 .infos p {
@@ -88,7 +91,7 @@ body {
     justify-content: flex-end;
     width: 100%;
     gap:20px ;
-    padding: 30px 45px;
+    padding: 60px 65px;
 }
 
 .footer .social-media .icon {
@@ -100,7 +103,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .footer .social-media .icon:hover {
