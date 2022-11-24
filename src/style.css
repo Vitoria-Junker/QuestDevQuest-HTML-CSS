@@ -1,0 +1,143 @@
+body {
+    background-color: var(--primary-Violet);
+    background-image: url(images/bg-desktop.svg);
+    background-size: cover;
+    width: 100%;
+} 
+
+
+.header {
+    height: 150px;
+    display: flex;
+    align-content: center;
+}
+
+.header .logo {
+    margin-top: 20px;
+    padding: 45px;
+}
+
+.container {
+    display: flex;
+    padding: 45px;
+}
+ 
+
+ .mockups {
+    padding: 45px;
+
+}
+
+.infos {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.infos h1 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 30px;
+    width: 100%;
+    padding: 0 30px;
+}
+
+.infos p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 20px;
+    padding: 0 30px;
+    margin-right: 50px;
+}
+
+.infos .btn-register {
+    background-color: #fff;
+    margin-top: 20px;
+    width: 150px;
+    padding: 10px 50px;
+    border-radius: 50px;
+    box-shadow: 4px 3px 13px -2px #000000;
+    margin-left: 30px;
+}
+
+ .infos .btn-register a { 
+    font-family: 'open sans', sans-serif;
+    font-size: 13px;
+    font-weight:400;
+}
+.infos .btn-register:hover {
+ background-color: var(--Soft-Magenta);
+}
+
+.infos .btn-register a:hover {
+    color:#fff ;
+}
+
+.footer {
+    height: 120px;
+    display: flex;
+}
+
+.footer .social-media {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    gap:20px ;
+    padding: 30px 45px;
+}
+
+.footer .social-media .icon {
+    border: 1px solid #fff;
+    background-color:var(--primary-Violet);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.footer .social-media .icon:hover {
+    border: 1px solid  hsl(300, 69%, 71%);
+}
+
+.footer .social-media .icon a {
+    align-items: center;
+    width: 100%;
+    margin-left: 8px;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-instagram {
+    color: #fff;
+    width: 13px;
+    height: 13px;
+}
+
+.fa-facebook-f {
+    margin-left: 1px;
+} 
+
+.fa-twitter {
+    margin-left: -2px;
+}
+
+.fa-instagram {
+    margin-left: -1px;
+}
+
+.fa-instagram:hover {
+    color: var(--Soft-Magenta);
+}
+
+.fa-facebook-f:hover {
+    color: var(--Soft-Magenta);
+}
+.fa-twitter:hover {
+    color: var(--Soft-Magenta);
+}

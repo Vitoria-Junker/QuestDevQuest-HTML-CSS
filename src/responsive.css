@@ -1,0 +1,9 @@
+  @media(max-width:725px) {
+
+     .container { 
+         flex-wrap: wrap;
+         align-items: center;
+         justify-content: center;
+    } 
+
+ }
